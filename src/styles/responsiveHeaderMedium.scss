@@ -1,0 +1,71 @@
+@import "Val.scss";
+
+@media only screen and (max-width: 1072px){
+
+  .contentContainer h1{
+    font-size: 55px;
+    text-align: center;
+    padding: 10px;
+  }
+  .contentContainer p{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+  }
+  #containerButton{
+    padding-top: 25px;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 980px){
+  .contentContainer{
+    width: 100%;
+    margin-left: auto;
+    display: block;
+    margin-right:auto;
+  }
+  .contentContainerText{
+    margin-left: auto;
+    margin-right:auto;
+  }
+  .contentContainer h1{
+    font-size: 45px;
+  }
+  .contentContainer p{
+    font-size:15px;
+  }
+}
+
+
+@media only screen and (max-width: 527px){
+  .menuList li {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 379px){
+  .menuList li {
+    font-size: 17px;
+    padding: 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .contentContainer h1{
+    font-size: 35px;
+  }
+  .contentContainer p{
+    font-size:15px;
+  }
+}
+
+@media only screen and (max-width: 299px){
+  .menuList li {
+    font-size: 15px;
+    padding: 10px 5px;
+  }
+}

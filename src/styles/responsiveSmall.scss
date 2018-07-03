@@ -1,0 +1,104 @@
+@media only screen and (max-width: 769px){
+  .firstProject{
+    margin-top: 30px;
+  }
+  .firstProjectContent{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgAtlis{
+    width:300px;
+    display: block;
+    height: 250px;
+    object-fit: cover;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  .firstProjectTextContent{
+    padding:0;
+    text-align: center;
+    display: block;
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  .buttonViewDemo{
+    top: 50px;
+  }
+  .firstProjectTextContent p{
+    top: 20px;
+  }
+
+  hr{
+    //display: none;
+  }
+
+  .secondProject{
+    margin-top: 30px;
+  }
+  .secondProjectContent{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgVueJs{
+    width:300px;
+    top: -120px;
+    display: block;
+    height: 250px;
+    object-fit: cover;
+    margin-left:auto;
+    margin-right: auto;
+    left:0;
+  }
+  .secondProjectTextContent{
+    padding:0;
+    top: 265px;
+    text-align: center;
+    display: block;
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;
+    left:0;
+  }
+  .secondProjectTextContent p{
+    top: 20px;
+  }
+
+
+
+  .thirdProject{
+    margin-top: 30px;
+  }
+  .thirdProjectContent{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #imgTranslator{
+    width:300px;
+    display: block;
+    height: 250px;
+    object-fit: cover;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  .thirdProjectTextContent{
+    padding:0;
+    text-align: center;
+    display: block;
+    width:95%;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  .thirdProjectTextContent p{
+    top: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  #imgVueJs{
+    top: -150px;
+  }
+}

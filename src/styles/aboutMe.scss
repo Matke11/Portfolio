@@ -1,0 +1,39 @@
+@import "Val.scss";
+
+
+
+.aboutMeContainer{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.textAboutMe{
+  padding: 10px;
+  text-align: left;
+
+  h1{
+    color: $PrimaryColor;
+  }
+  p{
+    color: $PrimaryColor;
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+.skillsPart{
+  text-align: left;
+  padding: 10px;
+
+  h1{
+    color: $PrimaryColor;
+  }
+  .skillsImg{
+    img{
+      height: 50px;
+      margin: 20px;
+      display: inline-block;
+    }
+  }
+
+}

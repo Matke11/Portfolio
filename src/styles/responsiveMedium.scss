@@ -1,0 +1,39 @@
+@import "Val.scss";
+
+@media only screen and (max-width: 950px) {
+  .firstProjectContent{
+    width: 700px;
+  }
+  #imgAtlis{
+    width: 300px;
+    height: 300px;
+  }
+  .firstProjectTextContent{
+    width:50%;
+  }
+
+
+  .secondProjectContent{
+    width: 700px;
+  }
+  #imgVueJs{
+    width:300px;
+    height: 300px;
+  }
+  .secondProjectTextContent{
+    width:40%;
+  }
+
+  .thirdProjectContent{
+    width: 700px;
+  }
+  #imgTranslator{
+    width: 300px;
+    height: 300px;
+  }
+  .thirdProjectTextContent{
+    width: 40%;
+  }
+
+
+}

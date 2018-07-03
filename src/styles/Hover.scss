@@ -1,0 +1,27 @@
+@import "Val.scss";
+
+
+.menuList li a:hover{
+  border-bottom: 3px solid $SecondaryColor;
+  color: $SecondaryColor;
+}
+
+.socialMediaLinksShape:hover{
+  background-color: $PrimaryColor;
+}
+.socialMediaLinksShape:hover:before{
+  background-color: $PrimaryColor;
+}
+.socialMediaLinksShape:hover:after{
+  background-color: $PrimaryColor;
+}
+
+.buttonViewDemo:hover{
+  text-decoration: none;
+  color: white;
+  background-color: $PrimaryColor;
+}
+.contactTextContainer h3 a:hover{
+  color: darkslategray;
+  text-decoration: underline;
+}
